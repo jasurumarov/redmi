@@ -1,6 +1,59 @@
 .support {
+    padding-bottom: 120px;
+    background: #f7f7f7;
+}
+
+.support-title {
     text-align: center;
-    color: aqua;
-    background: black;
-    font-size: 20px;
+    color: #191919;
+    font-size: 32px;
+    margin-bottom: 56px;
+}
+
+.support__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.support__card {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.support__card-icons {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    fill: #898989;
+}
+
+.support__card-heading {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #191919;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.support__card-desc {
+    color: #191919;
+    font-size: 16px;
+}
+
+.support__card:hover svg {
+    fill: #ff6900;
+    transition: .2s;
+}
+
+.support__card:hover h3 {
+    color: #ff6900;
+    transition: .2s;
+}
+
+.support__card:hover p {
+    color: #ff6900;
+    transition: .2s;
 }

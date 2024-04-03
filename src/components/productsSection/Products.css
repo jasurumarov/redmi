@@ -139,7 +139,7 @@
 }
 
 .products__cards-bottom__card-heading {
-    margin-top: 12px;
+    margin-top: 170px;
     color: #191919;
     font-size: 18px;
     margin-bottom: 18px;
@@ -153,8 +153,7 @@
 }
 
 .products__cards-bottom__card:hover p {
-    /* opacity: 0; */
-    visibility: hidden;
+    opacity: 0;
 }
 
 .products__cards-bottom__card-btn {
@@ -176,5 +175,24 @@
 
 .products__cards-bottom__card:hover button {
     opacity: 100%;
-    margin-top: 0px;
+    margin-top: -20px;
+}
+
+.products__cards-bottom__card-img {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    text-align: center;
+}
+
+.products__cards-bottom__card img {
+    width: 160px;
+    height: 160px;
+    transition: .3s;
+}
+
+.products__cards-bottom__card:hover img {
+    width: 165px;
+    height: 165px;
+    transition: .3s;
 }

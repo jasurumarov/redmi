@@ -1,6 +1,78 @@
 .explore {
-    color: green;
-    background: wheat;
-    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    background: #f7f7f7;
+}
+
+.explore__title {
     text-align: center;
+    font-size: 32px;
+    color: #191919;
+    margin-bottom: 48px;
+}
+
+.explore__card {
+    width: 680px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    height: 380.59px;
+}
+
+.explore__card-img img{
+    width: 450px;
+}
+
+.explore__card-container {
+    padding: 42px 28px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.explore__card-heading {
+    font-size: 18px;
+    color: #191919;
+    margin-bottom: 14px;
+}
+
+.explore__card-desc {
+    color: #191919;
+    font-size: 16px;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.explore__card:hover p {
+    opacity: 0;
+}
+
+.explore__card-btn {
+    margin-top: 6px;
+    opacity: 0;
+    cursor: pointer;
+    background: #191919;
+    padding: 4px 10px;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #191919;
+    transition: .4s;
+}
+.explore__card-btn:hover {
+    background: white;
+    color: #191919;
+}
+
+.explore__card:hover button {
+    opacity: 100%;
+    margin-top: -30px;
+}
+
+.explore__cards {
+    display: flex;
+    gap: 20px;
 }
