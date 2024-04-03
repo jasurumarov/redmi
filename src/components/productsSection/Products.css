@@ -55,6 +55,7 @@
 .products__cards-top:hover .products__cards-top__img img {
     width: 679px;
     height: 346.19px;
+    transform: scaleX(102%);
 }
 
 .products__cards-top__img {
