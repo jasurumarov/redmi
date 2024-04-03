@@ -14,23 +14,24 @@
 }
 
 .explore__card {
-    width: 680px;
-    background: white;
-    border-radius: 16px;
-    overflow: hidden;
-    height: 380.59px;
+    width: 450px !important; 
+    background: white !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    height: 380.59px !important;
 }
 
 .explore__card-img img{
-    width: 450px;
+    width: 450px !important; 
 }
 
 .explore__card-container {
-    padding: 42px 28px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 450px !important;
+    padding: 42px 28px 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
 }
 
 .explore__card-heading {
@@ -75,6 +76,7 @@
 }
 
 .explore__cards {
-    display: flex;
+    display: flex ; 
     gap: 20px;
+    background: #f7f7f7 !important;
 }

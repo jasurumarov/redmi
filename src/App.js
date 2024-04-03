@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Products from './components/productsSection/Products';
 import Support from './components/supportSection/Support';
 
+
 function App() {
   return (
     <div className="App">
