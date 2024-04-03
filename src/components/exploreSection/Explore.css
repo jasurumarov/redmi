@@ -11,6 +11,7 @@
     font-size: 32px;
     color: #191919;
     margin-bottom: 48px;
+    position: relative !important;
 }
 
 .explore__card {
@@ -79,4 +80,21 @@
     display: flex ; 
     gap: 20px;
     background: #f7f7f7 !important;
+}
+
+.owl-nav {
+    position: absolute !important;
+    bottom: 430px;
+    right: 6px;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    gap: 20px !important;
+}
+
+.owl-nav button {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 10px !important;
+    background: #d1d1d1 !important; 
 }

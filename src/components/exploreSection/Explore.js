@@ -16,9 +16,10 @@ function Explore() {
     const options = {
         items: 3,
         nav: true,
+        dots: false,
         rewind: true,
         autoplay: true,
-        autoplayTimeout: 5000
+        autoplayTimeout: 3000
     };
   return (
     <div className='explore'>
