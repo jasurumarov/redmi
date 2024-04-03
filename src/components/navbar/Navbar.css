@@ -20,11 +20,12 @@ header {
     gap: 40px;
 } 
 
-.navbar-left__logo {
+.navbar-left__logo img{
     width: 32px;
     height: 32px;
     margin: 0 0 0 16px;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 .navbar-left__list {
@@ -51,13 +52,48 @@ header {
     margin-right: 16px;
 }
 
+.navbar-right__icons-list button {
+    cursor: pointer;
+}
+
 .navbar__list-item {
     padding: 18.5px 8px 15.5px 8px;
     border-bottom: 3px solid #fff;
     transition: .2s;
     cursor: pointer;
+    color: #191919;
 }
 
 .navbar__list-item:hover {
     border-bottom: 3px solid #ff6900;
+    color: #ff6900;
+}
+
+.sub-part {
+    padding: 60px 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 6px 16px 0 rgba(25,25,25,.06);
+    position: absolute;
+    top: -200px;
+    transition: .3s;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.navbar__list-item:hover + div{
+    top: 55px;
+}
+
+.sub-part:hover {
+    top: 55px;
+}
+
+.sub-part {
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
 }

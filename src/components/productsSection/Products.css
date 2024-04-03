@@ -28,6 +28,7 @@
     padding-bottom: 18px;
     border-bottom: 2px solid #f7f7f7;
     transition: .2s;
+    cursor: pointer;
 }
 
 .products__title-list li:hover {
@@ -150,10 +151,13 @@
     font-size: 16px;
     font-weight: 300;
     transition: .3s;
+    cursor: pointer;
 }
 
 .products__cards-bottom__card:hover p {
+    margin-top: -10px;
     opacity: 0;
+    cursor: pointer;
 }
 
 .products__cards-bottom__card-btn {
@@ -166,6 +170,7 @@
     font-size: 14px;
     border-radius: 8px;
     border: 1px solid #191919;
+    z-index: 2;
     transition: .4s;
 }
 .products__cards-bottom__card-btn:hover {
@@ -175,7 +180,7 @@
 
 .products__cards-bottom__card:hover button {
     opacity: 100%;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .products__cards-bottom__card-img {

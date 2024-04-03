@@ -47,6 +47,8 @@
 }
 
 .explore__card:hover p {
+    margin-top: -8px;
+    z-index: -1;
     opacity: 0;
 }
 
