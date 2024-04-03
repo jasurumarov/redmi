@@ -1,4 +1,145 @@
-.navbar__logo {
-    width: 32px;
-    height: 32px;
+.footer {
+    background: #191919;
+}
+
+.footer-container {
+    max-width: 1450px;
+    padding: 8px 0;
+    margin: 0 auto;
+}
+
+.footer-top {
+    padding: 64px 0;
+    display: flex;
+}
+
+.footer-top__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ul1 {
+    margin-right: 86px;
+}
+.ul2 {
+    margin-right: 146px;
+}
+.ul3 {
+    margin-right: 258px;
+}
+
+.footer-top__list h3 {
+    margin-bottom: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-top__list-item a {
+    text-decoration: none;
+    color: #898989;
+    font-size: 16px;
+}
+
+.footer-top__list-item a:hover {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.footer-top__form h3{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-top__form__icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-top__form__icons a{
+   background: #d0d0d0; 
+   border-radius: 12px;
+   width: 30px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-top__form__icons svg{
+    width: 24px;
+    height: 24px;
+}
+
+.footer-top__form-box {
+    position: relative;
+}
+
+.footer-top__form-box__input {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 1px 42px 1px 16px;
+    height: 48px;
+    width: 406px;
+    font-size: 15px;
+    color: white;
+}
+
+.footer-top__form-box div {
+    position: absolute;
+    top: 0;
+    right: 14px;
+}
+
+.footer-bottom__line {
+    height: 0.5px;
+    width: 100%;
+    background: #898989;
+}
+
+.footer-bottom__content {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom__content-left {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.footer-bottom__content-left p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-bottom__content-left ul{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-bottom__content-left a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom__content-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.footer-bottom__content-right a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
 }
